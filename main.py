@@ -87,3 +87,7 @@ def cerca_fontanelle(quartiere: str):
     }
 
 # Per avviare: uvicorn main:app --reload
+
+@app.get("/qurtieri_fontanelle")
+def Num_fontanelle():
+    return
